@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+/* ---------- HEART RAIN ---------- */
+.heart-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.heart {
+  position: absolute;
+  top: -10%;
+  color: #ff4d6d;
+  font-size: 24px;
+  animation: fall linear forwards;
+  opacity: 0.9;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(120vh);
+    opacity: 0;
+  }
+}
