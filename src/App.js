@@ -92,7 +92,7 @@ export default function App() {
             muted
             playsInline
           />
-          <h1 className="valentine-title">ife mi...that’s my girl! ❤️</h1>
+          <h1 className="valentine-title">Congratulations!see you soon!❤️</h1>
         </div>
       ) : showMeme ? (
         <div
